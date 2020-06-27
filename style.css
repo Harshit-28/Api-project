@@ -1,0 +1,45 @@
+body {    
+     background: rgba(0, 0, 0, 0.596);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;
+    }
+    .row {
+      display: flex;
+      font-size: 30px;
+    }    
+    .marquee{      
+      padding-top: 50px;
+      padding-bottom: 20px;
+     font-size: 50px;
+    }
+    .details{
+      color: yellow;
+     font-size: 30px;
+    }
+    .column {
+      flex: 33.33%;
+      padding: 50px;
+      font-size: 30px;
+    }
+    .name
+    {
+      border-bottom: 1px solid #bc13da;
+      box-shadow: 0 1px 0 0 #490655;
+    }
+    .marquee
+    {
+      color: cyan;
+    }
+    :hover a
+    {
+      color:cyan;
+      
+    }
+    .img{
+      background-image: url(./dt_200221_covid_19_coronavirus_800x450.jpg);
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.9;
+    }
